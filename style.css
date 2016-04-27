@@ -93,8 +93,8 @@ ul {
 }
 
 .job-folders-container {
-  width: 1200px;
-  height: 800px;
+  width: 900px;
+  height: 1200px;
   border: 1px dotted white;
   padding: 1em;
   flex-direction:column;
@@ -107,7 +107,7 @@ ul {
 }
 
 .job-folder {
-  font-size: 0.85em;
+  font-size: 0.7em;
   color: white;
   border: 2px solid white;
   border-radius: 0.4em;
