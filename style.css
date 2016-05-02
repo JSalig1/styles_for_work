@@ -103,6 +103,30 @@ ul {
   -webkit-justify-content: center;
 }
 
+.nav {
+  display: flex;
+  display: -webkit-flex;
+  padding: 0.1em;
+  margin: 9px 0px 0px -4px;
+}
+
+.nav .active {
+  border: 0px;
+  opacity: 1;
+  padding: 0em 0.5em 0em 0.5em;
+}
+
+.nav .non-active a {
+  border: 1px dotted white;
+  opacity: 0.5;
+  padding: 0.5em;
+}
+
+.nav .non-active a:hover {
+  background: white;
+  background: rgba(255,255,255,0.4);
+}
+
 .app-icon {
   border: 2px solid #fff;
   border-radius: 2em;
@@ -113,6 +137,7 @@ ul {
 }
 
 .container-border {
+  max-height: 36em;
   border: 1px dotted white;
   margin: 2em;
   padding: 2px;
