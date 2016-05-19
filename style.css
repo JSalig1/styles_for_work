@@ -136,6 +136,22 @@ ul {
   animation-duration: 0.7s;
 }
 
+.form-icon {
+  border: 2px solid #fff;
+  padding: 0.1em;
+  width: 9em;
+  height: 11em;
+  margin: 1.5em;
+  animation-name: pop-up;
+  animation-duration: 0.7s;
+}
+
+.form-icon img {
+  width: 100px;
+  height: 100px;
+  padding: 1em;
+}
+
 .container-border {
   height: 36em;
   border: 1px dotted white;
