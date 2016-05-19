@@ -94,13 +94,19 @@ ul {
   list-style: none;
 }
 
-.content, .job-folders-container {
+.content, .job-folders-container, .apps-container {
   display: flex;
   display: -webkit-flex;
   align-items: center;
   -webkit-align-items: center;
   justify-content: center;
   -webkit-justify-content: center;
+}
+
+.apps-container {
+  max-width: 1200px;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
 .nav {
