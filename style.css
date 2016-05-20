@@ -238,13 +238,12 @@ ul {
   border-radius: 1em;
   margin: auto;
   margin-top: 2em;
-  width: 1300px;
-  height: 800px;
+  width: 80%;
   animation-name: float-on;
   animation-duration: 1s;
 }
 
 .solid-window img {
-  padding: 2em;
-  width: 1200;
+  width: 95%;
+  padding: 1em;
 }
