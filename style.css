@@ -95,7 +95,7 @@ ul {
 }
 
 .header-nav {
-  position: fixed;
+  margin-bottom: -3em;
 }
 
 .header-nav ul {
@@ -103,7 +103,6 @@ ul {
   padding: 0;
   overflow: hidden;
   position: relative;
-  left: 30px;
   top: -70px;
 }
 
