@@ -94,6 +94,37 @@ ul {
   list-style: none;
 }
 
+.header-nav {
+  position: fixed;
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  left: 30px;
+  top: -70px;
+}
+
+.header-nav li {
+  float: left;
+  width: 8em;
+}
+
+.header-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 26px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.header-nav li a:hover {
+  background-color: #111;
+}
+
 .content, .job-folders-container, .apps-container {
   display: flex;
   display: -webkit-flex;
