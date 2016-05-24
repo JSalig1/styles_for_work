@@ -65,7 +65,8 @@ html {
   background: black; /* For browsers that do not support gradients */
   background: linear-gradient(to bottom, rgba(80,0,80,.5), rgba(80,0,80,1)); /*Standard*/
   background-size: 100% 100%;
-  height: 100%;
+  height: 150%;
+  width: 150%;
   font-family: sans-serif, helvetica;
   text-align: center;
 }
