@@ -134,9 +134,9 @@ ul {
 }
 
 .apps-container {
-  max-width: 1200px;
+  max-width: 85%;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .nav {
