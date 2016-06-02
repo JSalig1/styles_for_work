@@ -114,6 +114,12 @@ ul {
   background-color: rgb(42,48,64);
 }
 
+.main-home-title {
+  background-color: rgb(42,48,64);
+  padding: 0.5em;
+  margin: 0;
+}
+
 .header-nav ul {
   margin: 0;
   padding: 0;
