@@ -165,7 +165,19 @@ ul {
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
+}
+
+#app-title {
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+}
+
+#app-title h1 {
+  font-size: 20px;
+  padding: 14px;
+  margin: 0;
+  background: rgba(40,40,60,0.3);
 }
 
 .content, .job-folders-container, .apps-container {
