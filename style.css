@@ -321,6 +321,10 @@ ul {
   margin: 1em;
 }
 
+option {
+  color: black;
+}
+
 :focus {
   outline: none;
 }
