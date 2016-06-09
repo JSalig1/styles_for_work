@@ -178,6 +178,7 @@ ul {
   padding: 14px;
   margin: 0;
   background: rgba(40,40,60,0.3);
+  width: 5em;
 }
 
 .content, .job-folders-container, .apps-container {
