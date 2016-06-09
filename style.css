@@ -177,11 +177,11 @@ ul {
 }
 
 #app-title h1 {
-  font-size: 20px;
-  padding: 14px;
+  font-size: 17px;
+  padding: 13px;
   margin: 0;
   background: rgba(40,40,60,0.3);
-  width: 5em;
+  width: 6em;
 }
 
 .content, .job-folders-container, .apps-container {
