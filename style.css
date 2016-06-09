@@ -93,9 +93,12 @@ body {
  margin: 0;
 }
 
-a, p, li, h1, h2, h3, label {
+p, li, h1, h2, h3, label {
   color: white;
   font-weight: lighter;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -336,13 +339,7 @@ option {
   height: 2em;
 }
 
-.clickable-folder {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  font-size: 0.85em;
-}
-
-.button input, .button a, .clickable-folder a {
+.button input, .button a {
   font-size: 1em;
   font-weight: lighter;
   color: white;
