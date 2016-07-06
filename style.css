@@ -98,6 +98,11 @@ p, li, h1, h2, h3, label {
   font-weight: lighter;
 }
 
+p {
+  text-align: left;
+  padding: 1.4em;
+}
+
 a {
   text-decoration: none;
 }
@@ -327,8 +332,10 @@ option {
   outline: none;
 }
 
+
+
 .button {
-  margin: 0.8em;
+  margin: 1.4em;
   padding: 0.3em;
   height: 2em;
 }
@@ -345,6 +352,12 @@ option {
 
 .button input:hover, a:hover {
   background: rgba(255,255,255,0.4);
+}
+
+.notice {
+  font-size: 1.4em;
+  color: rgb(100,0,0);
+  margin: 1.2em;
 }
 
 .solid-window {
