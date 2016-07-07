@@ -98,7 +98,7 @@ p, li, h1, h2, h3, label {
   font-weight: lighter;
 }
 
-p {
+.warning-text {
   text-align: left;
   padding: 1.4em;
 }
