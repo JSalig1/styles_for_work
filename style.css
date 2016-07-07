@@ -90,7 +90,7 @@ html {
 }
 
 body {
- margin: 0;
+  margin: 0;
 }
 
 p, li, h1, h2, h3, label {
@@ -314,6 +314,18 @@ ul {
   margin: 2em;
   animation-name: pop-up;
   animation-duration: 0.7s;
+}
+
+.long-form {
+  width: 35em;
+}
+
+.long-form form {
+  width: 30em;
+}
+
+.long-field {
+  text-align: right;
 }
 
 .field {
