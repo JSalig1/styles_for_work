@@ -48,6 +48,24 @@
   }
 }
 
+@keyframes pop-up-smoother {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+  30% {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 @keyframes fade-up {
   0% {
     opacity: 0.2;
@@ -317,6 +335,7 @@ ul {
 }
 
 .long-form {
+  animation-name: pop-up-smoother;
   width: 40em;
 }
 
